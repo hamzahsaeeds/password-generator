@@ -1,0 +1,26 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="p1">Generate a </h1>
+            <span class="p2">random password</span>
+            <p class="p3">Never use an insecure password again.</p>
+            
+            <br /><input type="number" id="length-el" min="0" max="30"/>
+            <button class="setSize" type="submit" onclick="setPasswordLength(document.getElementById('length-el').value)">Set Size</button><br>
+            
+            <input type="checkbox" id="exclude-el" onclick="excludeNosSyms()">
+            <span id="exclude">exclude symbols & numbers</span><br><br>
+            
+            <button class="genpass" onclick="generatePasswords()">Generate passwords</button>
+            <hr />
+            <div class="passwords">
+                <button class="pass" id="pass1" onclick="copyPassword1()"></button>
+                <button class="pass" id="pass2" onclick="copyPassword2()"></button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

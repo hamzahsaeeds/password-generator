@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&family=Karla:wght@800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: #1f2937;
+  border-radius: 10px;
+  padding: 55px ;
+}
+
+.p1 {
+  color: white;
+  font-family: "Karla", sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+  margin: 35px 0 0 0;
+  /* padding: 40px 0 0 52px; */
+  padding: 0;
+}
+
+.p2 {
+  color: #4adf86;
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 800;
+}
+
+.p3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #d5d4d8;
+  /* padding: 0 0 0 52px; */
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+#exclude {
+    color: #d5d4d8;
+    font-size: 10px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+.passwords {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+
+.pass {
+  width: 180px;
+  height: 39px;
+  background-color: #273549;
+  border-radius: 6px;
+  color: #55f991;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.genpass {
+    padding: 10px;
+    background-color: #10b981;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+hr {
+  border: 1px solid #2f3e53;
+}
+
+input {
+    width: 40px;
+}
+
+.setSize {
+    padding: 5px;
+    background-color: #10b981;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    font-size: 12px;
+}
